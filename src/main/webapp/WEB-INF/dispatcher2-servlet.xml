@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="controller.AnnoController2"/><!-- 스프링안에 클래스생성시 무조건 인스턴스 생성해야한다, name을 사용하지 않을경우 이렇게 component를 이용해 생략이 가능하다. -->
+<bean class="controller.SecondController"/>
+<bean class="controller.ThirdController"/>
+<bean class="controller.FourthController"/>
+<bean class="controller.FifthController"/>
+<bean class="controller.ShopController"/>
+</beans>
