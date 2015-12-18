@@ -23,5 +23,12 @@
 	</form>
 </li>
 <li><a href="shop.action">쇼핑몰 관리자 페이지로 이동</a></li>
+
+<li>
+	<form action="memberSearch.action" method="post">
+		<input type="text" name="name" /><br/><br/>
+		<input type="submit" value="회원검색"/>
+	</form>
+</li>
 </body>
 </html>

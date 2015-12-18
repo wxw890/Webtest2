@@ -16,11 +16,11 @@
 ${day}, <br/>${day[0]}, ${day[1]}, ${day[2]} <br/>
 
 <h2>jstl로 출력</h2>
-<ul>
+<br/>
 <c:forEach var="days" items="${day}">
 	<li>${days}</li>
 </c:forEach>
-</ul>
+
 
 </body>
 </html>
